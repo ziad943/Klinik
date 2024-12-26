@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg px-4">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary fw-bold " href="#"> <i class="fa-solid fa-building"></i> Klinik</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-light fw-bold">City klinic</h1>
+                </div>
+            </div>
+        </div>
+      </header>
+
+      <section class="about">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <button class="btn btn-outline-primary ">Appointment</button>
+                    <h2 class="text-primary">Make An Appointment To Visit Our Doctor</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio eveniet modi veritatis? Veniam laborum error id impedit ullam cum voluptas perferendis expedita amet quae ut qui itaque reiciendis deserunt.</p>
+                    <div class="card border-0 d-flex flex-row align-items-center gap-4 mt-4">
+                        <i class="fa-solid fa-phone-flip text-primary bg-light p-3 rounded-circle"></i>
+                        <div>
+                            <p class="text-muted">Call Us Now</p>
+                            <p>+012 345 6789</p>
+                        </div>
+                    </div>
+                    <div class="card border-0 d-flex flex-row align-items-center gap-4 mt-4">
+                        <i class="fa-solid fa-envelope text-primary bg-light p-3 rounded-circle"></i>
+                        <div>
+                            <p class="text-muted">Email Us Now</p>
+                            <p>info@example.com</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                <form action="">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <input type="text" id="name" placeholder="Your Name" class="form-control border-0 ps-3 py-3">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" id="email" placeholder="Your Email" class="form-control border-0 ps-3 py-3">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <input type="tel" id="number" placeholder="Your Number" class="form-control border-0 ps-3 py-3">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="dropdown form-control border-0 ps-3 py-3">
+                                <button class="btn bg-light dropdown-toggle form-control" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Choose Doctor
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <input type="date" id="date" placeholder="Choose Date" class="form-control border-0 ps-3 py-3">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="date" id="date2" placeholder="Choose Date" class="form-control border-0 ps-3 py-3">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <textarea name="" id="area" rows="5" cols="30" class="form-control border-0 ps-3 py-3" placeholder="Descripe Your Proplem"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <button type="submit" onclick="validationform()" class="btn btn-primary w-100">Book Appointment</button>
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+        </div>
+      </section>
+
+      <footer class="pt-5">
+       <div class="container">
+        <div class="footer-content d-flex justify-content-between py-4">
+            <p>&copy; <a href="#">City Klinik</a> All Right Are Reserved</p>
+            <p>Designed by <a href="#">We Student</a></p>
+            
+        </div>
+       </div>
+      </footer>
+      <button type="button" class="btn btn-primary text-white rounded-circle p-3" id="topBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

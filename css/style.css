@@ -1,0 +1,29 @@
+header{
+    background-image: url(../imgs/header-page.jpg);
+    background-size: cover;
+    height: 45vh;
+}
+header h1{
+    padding-top: 100px;
+    font-size: 60px;
+}
+.card{
+    background-color: rgb(136, 177, 199);
+    padding: 40px 35px;
+}
+footer{
+    background-color: rgb(13,13,77);
+    color: white;
+}
+footer a{
+    color: white;
+}
+.footer-content{
+    border-top: 1px solid gray;
+}
+#topBtn{
+    position: fixed;
+    display: none;
+    right: 35px;
+    bottom: 10px;
+}
